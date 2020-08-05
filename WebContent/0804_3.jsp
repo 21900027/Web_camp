@@ -24,5 +24,6 @@
 	response.addCookie(ck);  
 	%>  
 	<a href="process_2.jsp">click</a> 
+	
 </body>
 </html>

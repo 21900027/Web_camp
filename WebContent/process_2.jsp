@@ -10,5 +10,6 @@
 Welcome, ${ param.name }  
 Value is ${ sessionScope.user }
 Hello, ${cookie.name.value}  
+
 </body>
 </html>
