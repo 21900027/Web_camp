@@ -3,10 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="EUC-KR" >
 <title>Insert title here</title>
 </head>
-<body>
+<body >
 	안녕하세요!
 	<% out.print ( 2 * 5 ); %>
 	<br/>  
@@ -18,5 +18,7 @@
 	</form>  
 	<br/>
 	<% out.print ( "오늘은 :" + java.util.Calendar.getInstance (). getTime ()); %>  
+	
+	
 </body>
 </html>
