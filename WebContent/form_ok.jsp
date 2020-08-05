@@ -1,15 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+  
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
+
 </head>
 <body>
-<%   
-String name=request.getParameter("uname");  
-out.print("welcome "+name);  
-%>  
+<jsp:useBean id="lab" class="lab11.Hobby" />
+<jsp:setProperty property="*" name="lab" />
+<jsp:forward page="form_print.jsp" />
 </body>
 </html>
